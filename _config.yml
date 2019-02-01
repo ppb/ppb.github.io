@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: PursuedPyBear
+description: Sprite game engine for teaching and fun
+logo: /dev/null
+show_downloads: true
