@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # PursuedPyBear
 
 PursuedPyBear, also known as `ppb`, exists to be an educational
@@ -112,37 +115,11 @@ enhancements, or ask for new features.
 If you want to contribute code, definitely read the relavant portions
 of Contributing.MD
 
-## Change Log
+## News
 
-
-### 0.5.0
-
-We went for a smaller release, but we got a lot done for it only being
-a few months. The most important bits are that all of the input events
-are in! Some cool stuff includes sprites scaling automatically and a
-new way to move between scenes that uses the event system. That means
-the old method is officially deprecated.
-
-New stuff:
-* MouseButton events
-* Key events
-* Add a title to the game window
-* Sprite scaling based on game unit size
-* Keycodes flags
-* New scene change mechanism that uses the event system
-
-Changed stuff:
-* Scene defaults are now class attributes
-* Most Sprite defaults are now class attributes
-* Flags can now be type hinted properly
-* Scenes no longer infinitely respawn their child scenes if running is
-  True.
-* Fixed an issue with the frame being different dimensions to the
-  viewport.
-* Fixed a bug in the Camera.point_in_viewport function
-* Default pixel ratio is now 64:1 (64 pixels to 1 game unit)
-* New (better) run function
-* Other type hinting fixes
-
-Removed stuff:
-* bb attribute removed from sprites
+{% for post in site.posts %}
+<section>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{{ post.excerpt }}
+</section>
+{% endfor %}
