@@ -1,7 +1,9 @@
+# https://github.com/pages-themes/minimal
 theme: jekyll-theme-minimal
 title: PursuedPyBear
 description: Sprite game engine for teaching and fun
 logo: /assets/bearlogo-270.png
 show_downloads: true
+# https://pages.github.com/versions/
 plugins:
   - jekyll-feed
