@@ -3,3 +3,5 @@ title: PursuedPyBear
 description: Sprite game engine for teaching and fun
 logo: /assets/bearlogo-270.png
 show_downloads: true
+plugins:
+  - jekyll-feed
