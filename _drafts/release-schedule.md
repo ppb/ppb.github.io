@@ -15,8 +15,8 @@ question:
 
 To combat this, the maintainers have decided to move to regular calendar
 releases instead of feature-driven releases. Moving forward, we will make
-releases every three months. Whatever features are merged at that point will be
-included.
+releases about every three months. Whatever features are merged at that point
+will be included.
 
 The specific flow is, for minor versions (eg, v0.6.0, v0.7.0):
 * The first pre-release will be published and a feature freeze will be put in
