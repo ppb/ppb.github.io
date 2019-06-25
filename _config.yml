@@ -7,3 +7,4 @@ show_downloads: true
 # https://pages.github.com/versions/
 plugins:
   - jekyll-feed
+  - jemoji
