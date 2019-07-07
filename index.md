@@ -117,7 +117,7 @@ of Contributing.MD
 
 ## Our Mascot
 
-The bear in the logo is named Binny, and we have [some facts about them]({% post_url binny %})
+The bear in the logo is named Binny, and we have [some facts about them](/binny.html)
 
 ## News
 
