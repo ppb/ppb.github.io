@@ -115,6 +115,10 @@ enhancements, or ask for new features.
 If you want to contribute code, definitely read the relavant portions
 of Contributing.MD
 
+## Our Mascot
+
+The bear in the logo is named Binny, and we have [some facts about them]({% post_url binny %})
+
 ## News
 
 {% for post in site.posts %}
