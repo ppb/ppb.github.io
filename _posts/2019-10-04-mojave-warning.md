@@ -1,5 +1,5 @@
 ---
-title: Bug found with MacOS Majove and PyGame
+title: Bug found with MacOS Mojave and PyGame
 layout: post
 author: Jamie
 tags: 
@@ -7,7 +7,7 @@ tags:
 - meta
 ---
 
-There have been problems found sometimes with the latest MacOS (Majove) and
+There have been problems found sometimes with the latest MacOS (Mojave) and
 PyGame 1. Specifically, it'll look black until the user interacts with the
 window.
 
