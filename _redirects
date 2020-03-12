@@ -1,0 +1,8 @@
+# Redirect domain aliases to primary domain
+https://pursuedpybear.dev/* https://ppb.dev/:splat 301!
+https://www.pursuedpybear.dev/* https://ppb.dev/:splat 301!
+https://pursuedpybear.org/* https://ppb.dev/:splat 301!
+https://www.pursuedpybear.org/* https://ppb.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://ppb.netlify.com/* https://ppb.dev/:splat 301!
