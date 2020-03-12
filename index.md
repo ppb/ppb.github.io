@@ -107,13 +107,15 @@ ppb.run(setup=setup)
 
 ## Get Involved
 
+Before getting involved, you should read our [Code of Conduct]({% coc.md %}).
+
 The fastest way to get involved is to check out the [ongoing
-discussions.](https://github.com/ppb/pursuedpybear/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion)
+discussions](https://github.com/ppb/pursuedpybear/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion).
 If you're already using `ppb` feel free to report bugs, suggest
 enhancements, or ask for new features.
 
-If you want to contribute code, definitely read the relavant portions
-of Contributing.MD
+If you want to contribute code, definitely read the relevant portions
+of our [Contributing guide]({% contributing.md %}).
 
 ## Our Mascot
 
