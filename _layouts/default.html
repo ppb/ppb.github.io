@@ -16,21 +16,24 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p>{{ site.description }}</p>
 
-        {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="https://github.com/ppb/pursuedpybear">View On <strong>GitHub</strong></a></li>
           <li><a href="https://pypi.org/project/ppb/">View On <strong>PyPI</strong></a></li>
           <li><a href="https://ppb.readthedocs.io/en/stable/">Read The <strong>Docs</strong></a></li>
         </ul>
-        {% endif %}
+
+        <div class="social">
+          <a href="https://twitter.com/pursuedpybear"><img src="/assets/twitter-circle.svg" title="@PursuedPyBear on Twitter"></a>
+          <a href="https://pypi.org/project/ppb/"><img src="/assets/discord-black.svg" title="Join our Discord"></a>
+        </div>
       </header>
       <section>
 
@@ -39,7 +42,7 @@
       </section>
       <footer>
         <p><small>Powered by <a href="https://www.netlify.com/">Netlify</a> &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        <p class="contributing"><small><a href="{% link coc.md %}"><strong>Code of Conduct</strong></a> &mdash; <a href="{% link contributing.md %}"><strong>Contributing Guide</strong></a> &mdash; <a href="{% link contributors.md %}"><strong>Contributors</strong></a></small></p>
+        <p><small><a href="{% link coc.md %}"><strong>Code of Conduct</strong></a> &mdash; <a href="{% link contributing.md %}"><strong>Contributing Guide</strong></a> &mdash; <a href="{% link contributors.md %}"><strong>Contributors</strong></a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
