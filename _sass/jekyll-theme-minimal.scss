@@ -173,6 +173,7 @@ header ul a strong {
 
 header .social {
   display: flex;
+  justify-content: space-evenly;
   img {
     height: 40px;
   }
