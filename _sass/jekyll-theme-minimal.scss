@@ -115,6 +115,12 @@ header > h1, header > p {
   text-align: center;
 }
 
+header > img {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
 header ul {
   list-style:none;
   height:40px;
