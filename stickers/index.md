@@ -15,16 +15,11 @@ We do apologize, but we can only mail to the US.
     <p style="display:none;">
         <label>Don’t fill this out if you’re a person: <input name="phone" /></label>
     </p>
-    <p>
-        <label for=email>Email:</label> <input type="email" name="email" />
-    </p>
-    <p>
-        <label for=address>Address:</label> <textarea name="address"></textarea>
-    </p>
-    <p>(Do we want reCAPTCHA?)</p>
-    <p>
-        <button type="submit">Request Stickers</button>
-    </p>
+
+    <label for=email>Email:</label> <input type="email" name="email" />
+    <label for=address>Address:</label> <textarea name="address"></textarea>
+    <p class="wide">(Do we want reCAPTCHA?)</p>
+    <button type="submit" class="wide">Request Stickers</button>
 </form>
 
 (add some details about what the stickers are, exactly)

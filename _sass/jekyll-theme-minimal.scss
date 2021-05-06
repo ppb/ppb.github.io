@@ -296,13 +296,15 @@ form textarea {
 }
 
 form.table {
-  display: table;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 120px);
+  grid-row-gap: .5em;
+  grid-column-gap: 1em;
 }
 
-form.table > * {
-  display: table-row;
-}
-
-form.table > * > * {
-  display: table-cell;
+form.table .wide {
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
