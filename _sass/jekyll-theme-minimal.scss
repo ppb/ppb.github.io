@@ -302,13 +302,15 @@ form.table {
   grid-template-rows: repeat(auto-fill, 120px);
   grid-row-gap: .5em;
   grid-column-gap: 1em;
+
+  .wide, input[type=submit] {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  input[type=submit] {
+    width: 20ex;
+    margin: auto;
+  }
 }
 
-form.table .wide, form.table input[type=submit] {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
-
-form.table input[type=submit] {
-  width: 20ex;
-  margin: auto;
