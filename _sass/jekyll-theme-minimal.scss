@@ -298,17 +298,17 @@ form textarea {
 form.table {
   width: 100%;
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: repeat(auto-fill, 120px);
+  grid-template-columns: max-content auto;
+  grid-template-rows: repeat(auto-fill, 2em);
   grid-row-gap: .5em;
   grid-column-gap: 1em;
 
-  .wide, input[type=submit] {
+  .wide, button[type=submit] {
     grid-column-start: 1;
     grid-column-end: 3;
   }
 
-  input[type=submit] {
+  button[type=submit] {
     width: 20ex;
     margin: auto;
   }

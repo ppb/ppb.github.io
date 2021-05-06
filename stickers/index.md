@@ -16,9 +16,9 @@ We do apologize, but we can only mail to the US.
         <label>Don’t fill this out if you’re a person: <input name="phone" /></label>
     </p>
 
-    <label for=email>Email:</label> <input type="email" name="email" />
-    <label for=address>Address:</label> <textarea name="address"></textarea>
-    <button type="submit" class="wide">Request Stickers</button>
+    <label for=email>Email:</label> <input type="email" name="email" placeholder="binny@ppb.dev" />
+    <label for=address>Address:</label> <textarea name="address" rows=4></textarea>
+    <button type="submit">Request Stickers</button>
 </form>
 
 (add some details about what the stickers are, exactly)
