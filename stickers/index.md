@@ -11,15 +11,15 @@ circle adhesive beauties!
 
 We do apologize, but we can only mail to the US.
 
-<form name="stickers" method="POST" action="/stickers/accepted.html" netlify netlify-honeypot="phone">
+<form name="stickers" class="table" method="POST" action="/stickers/accepted.html" netlify netlify-honeypot="phone">
     <p style="display:none;">
         <label>Don’t fill this out if you’re a person: <input name="phone" /></label>
     </p>
     <p>
-        <label>Email: <input type="text" name="email" /></label>
+        <label for=email>Email:</label> <input type="email" name="email" />
     </p>
     <p>
-        <label>Address: <textarea name="Address"></textarea></label>
+        <label for=address>Address:</label> <textarea name="address"></textarea>
     </p>
     <p>(Do we want reCAPTCHA?)</p>
     <p>

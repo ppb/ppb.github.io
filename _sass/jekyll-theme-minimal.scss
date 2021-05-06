@@ -290,3 +290,19 @@ footer {
     color:#444;
   }
 }
+
+form textarea {
+  vertical-align: top;
+}
+
+form.table {
+  display: table;
+}
+
+form.table > * {
+  display: table-row;
+}
+
+form.table > * > * {
+  display: table-cell;
+}
