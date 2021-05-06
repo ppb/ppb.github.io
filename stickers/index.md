@@ -18,7 +18,6 @@ We do apologize, but we can only mail to the US.
 
     <label for=email>Email:</label> <input type="email" name="email" />
     <label for=address>Address:</label> <textarea name="address"></textarea>
-    <p class="wide">(Do we want reCAPTCHA?)</p>
     <button type="submit" class="wide">Request Stickers</button>
 </form>
 
